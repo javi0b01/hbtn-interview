@@ -4,7 +4,7 @@
 
 ## Projects
 :open_file_folder:
-* [ ] 498 0x00. Lockboxes
+* [x] 498 0x00. Lockboxes
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  

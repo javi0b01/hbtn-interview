@@ -7,7 +7,7 @@
 A ```README.md``` file at the root of the folder of the project is mandatory
 
 ## Tasks
-* [ ] 0. Lockboxes
+* [x] 0. Lockboxes
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
