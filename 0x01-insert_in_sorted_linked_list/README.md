@@ -7,7 +7,7 @@
 A ```README.md``` file at the root of the folder of the project is mandatory
 
 ## Tasks
-* [ ] 0. Insert in sorted linked list
+* [x] 0. Insert in sorted linked list
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  

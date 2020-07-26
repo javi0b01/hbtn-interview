@@ -5,7 +5,7 @@
 ## Projects
 :open_file_folder:
 * [x] 498 0x00. Lockboxes
-* [ ] 439 0x01. Insert in sorted linked list
+* [x] 439 0x01. Insert in sorted linked list
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
