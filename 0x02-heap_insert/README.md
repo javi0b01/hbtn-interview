@@ -8,7 +8,7 @@ A ```README.md``` file
 All your files should end with a new line
 
 ## Tasks
-* [ ] 0. New node
+* [x] 0. New node
 * [ ] 1. Heap - Insert
 
 ## Software engineer
