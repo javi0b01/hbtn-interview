@@ -6,15 +6,18 @@ operations needed to result in exactly n H characters in the file. """
 
 
 def minOperations(n):
-    if not isinstance(n, int):
+    """ Method that calculates number of operations needed """
+    if type(n) != int:
         return 0
-    op = 0
-    i = 2
-    while (i <= n):
-        if not (n % i):
-            n = int(n / i)
-            op += i
-            i = 1
-        i += 1
-    return op
+    minOpe = 2
+    if n == 1:
+        return minOpe
+    nOpe = 0
+    while (minOpe <= n):
+        if not (n % minOpe):
+            n = int(n / minOpe)
+            nOpe += minOpe
+            minOpe = 1
+        minOpe += 1
+    return nOpe
 
