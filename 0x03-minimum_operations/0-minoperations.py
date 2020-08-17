@@ -10,10 +10,8 @@ def minOperations(n):
     if type(n) != int:
         return 0
     minOpe = 2
-    if n == 1:
-        return minOpe
     nOpe = 0
-    while (minOpe <= n):
+    while n >= minOpe:
         if not (n % minOpe):
             n = int(n / minOpe)
             nOpe += minOpe
