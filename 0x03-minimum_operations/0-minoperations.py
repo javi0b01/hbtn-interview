@@ -3,17 +3,29 @@
 execute only two operations in this file: Copy All and Paste.
 Given a number n, write a method that calculates the fewest number of
 operations needed to result in exactly n H characters in the file. """
+import math
+
+
+def factors(n):
+    """ Calculates the factors of n number """
+    aList = []
+    while n % 2 == 0:
+        aList.append(2)
+        n = n / 2
+    for i in range(3, int(math.sqrt(n)) + 1, 2):
+        while n % i == 0:
+            aList.append(i)
+            n = n / i
+    if n > 1:
+        aList.append(n)
+    return aList
 
 
 def minOperations(n):
+    """ Calculate number of operations """
     if type(n) != int:
         return 0
-    min_ope = 2
-    n_ope = 0
-    while n > 1:
-        while n % min_ope == 0:
-            n_ope += min_ope
-            n /= min_ope
-        min_ope += 1
-    return n_ope
+    else:
+        nOpe = sum(factors(n))
+        return int(nOpe)
 
