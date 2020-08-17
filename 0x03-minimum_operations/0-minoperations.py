@@ -6,7 +6,7 @@ operations needed to result in exactly n H characters in the file. """
 
 
 def minOperations(n):
-    if type(n) != int or n < 2:
+    if type(n) != int:
         return 0
     min_ope = 2
     n_ope = 0
