@@ -7,7 +7,7 @@
 A ```README.md``` file.
 
 ## Tasks
-* [ ] 0. Minimum Operations
+* [x] 0. Minimum Operations
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  

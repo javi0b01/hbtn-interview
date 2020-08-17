@@ -7,7 +7,8 @@
 * [x] 498 0x00. Lockboxes
 * [x] 439 0x01. Insert in sorted linked list
 * [ ] 465 0x02. Heap Insert
-* [ ] 488 0x03. Minimum Operations
+* [x] 488 0x03. Minimum Operations
+* [ ] 460 0x04. Sandpiles
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
