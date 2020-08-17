@@ -16,7 +16,7 @@ def factors(n):
         while n % i == 0:
             aList.append(i)
             n = n / i
-    if n > 1:
+    if n > 2:
         aList.append(n)
     return aList
 
