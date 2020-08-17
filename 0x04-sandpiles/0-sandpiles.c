@@ -1,8 +1,8 @@
 #include "sandpiles.h"
 /**
- * print_grid - Print a grid
- * @grid: Grid, is a matrix
- * Return: Nothing
+ * print_grid - Print a grid.
+ * @grid: Grid, is a matrix.
+ * Return: Nothing.
  */
 void print_grid(int grid[3][3])
 {
@@ -20,10 +20,10 @@ void print_grid(int grid[3][3])
 	}
 }
 /**
- * sandpiles_sum_and_check - Get sum and check stability
- * @grid1: Grid, a matrix, use here to store the result of sum
- * @grid2: Grid, a matrix, use later for toppling
- * Return: Status, 0 if is stable or 1 if it is not stable
+ * sandpiles_sum_and_check - Get sum and check stability.
+ * @grid1: Grid, a matrix, use here to store the result of sum.
+ * @grid2: Grid, a matrix, use later for toppling.
+ * Return: Status, 0 if is stable or 1 if it is not stable.
  */
 int sandpiles_sum_and_check(int grid1[3][3], int grid2[3][3])
 {
@@ -41,10 +41,10 @@ int sandpiles_sum_and_check(int grid1[3][3], int grid2[3][3])
 	return (status);
 }
 /**
- * sandpiles_toppling - topples the grid untill it becomes stable
- * @grid1: the grid to topple
- * @grid2: the empty grid using for storing
- * Return: Nothing
+ * sandpiles_toppling - topples the grid untill it becomes stable.
+ * @grid1: the grid to topple.
+ * @grid2: the empty grid using for storing.
+ * Return: Nothing.
  */
 void sandpiles_toppling(int grid1[3][3], int grid2[3][3])
 {
@@ -72,10 +72,10 @@ void sandpiles_toppling(int grid1[3][3], int grid2[3][3])
 	}
 }
 /**
- * sandpiles_sum - function that computes the sum of two sandpiles
- * @grid1: sandpile, a matrix, first grid
- * @grid2: sandpile, a matrix, second grid
- * Return: Nothing
+ * sandpiles_sum - function that computes the sum of two sandpiles.
+ * @grid1: sandpile, a matrix, first grid.
+ * @grid2: sandpile, a matrix, second grid.
+ * Return: Nothing.
  */
 void sandpiles_sum(int grid1[3][3], int grid2[3][3])
 {
