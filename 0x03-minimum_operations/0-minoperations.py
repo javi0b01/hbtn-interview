@@ -6,7 +6,11 @@ operations needed to result in exactly n H characters in the file. """
 
 
 def minOperations(n):
+    if type(n) != int or n < 1:
+        return 0
     min_ope = 2
+    if n == 1:
+        return min_ope
     n_ope = 0
     while n > 1:
         while n % min_ope == 0:
