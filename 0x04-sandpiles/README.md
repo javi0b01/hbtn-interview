@@ -11,7 +11,7 @@
 A ```README.md``` file.
 
 ## Tasks
-* [ ] 0. Sandpiles sum
+* [x] 0. Sandpiles sum
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
