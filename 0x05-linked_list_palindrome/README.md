@@ -7,9 +7,8 @@
 A ```README.md``` file.
 
 ## Tasks
-* [ ] 0. Linked list palindrome
+* [x] 0. Linked list palindrome
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
 :octocat: [GitHub](https://github.com/javierandresgp/)
-
