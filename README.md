@@ -10,6 +10,7 @@
 * [x] 488 0x03. Minimum Operations
 * [x] 460 0x04. Sandpiles
 * [x] 440 0x05. Linked list palindrome
+* [ ] 474 0x06. Log Parsing
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
