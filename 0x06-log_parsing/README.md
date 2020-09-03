@@ -7,7 +7,7 @@
 A ```README.md``` file.
 
 ## Tasks
-* [ ] 0. Log parsing
+* [x] 0. Log parsing
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
