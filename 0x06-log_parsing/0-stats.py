@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 """ script that reads stdin line by line and computes metrics """
-if __name__ == '__main__':
-    import sys
 
+if __name__ == '__main__':
+
+    import sys
 
     def print_results(statusCodes, fileSize):
         """ Print statistics """
@@ -10,7 +11,6 @@ if __name__ == '__main__':
         for statusCode, times in sorted(statusCodes.items()):
             if times:
                 print("{:s}: {:d}".format(statusCode, times))
-
 
     statusCodes = {"200": 0,
                    "301": 0,
@@ -23,6 +23,7 @@ if __name__ == '__main__':
                    }
     fileSize = 0
     n_lines = 0
+
     try:
         """ Read stdin line by line """
         for line in sys.stdin:
@@ -44,4 +45,3 @@ if __name__ == '__main__':
         """ Keyboard interruption, print from the beginning """
         print_results(statusCodes, fileSize)
         raise
-
