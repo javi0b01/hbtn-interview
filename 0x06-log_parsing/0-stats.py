@@ -8,7 +8,7 @@ if __name__ == '__main__':
         print("File size: {:d}".format(fileSize))
         for statusCode, times in sorted(statusCodes.items()):
             if times:
-                print("{:s}: {:d}".format(statusCode, times))
+                print("{}: {:d}".format(statusCode, times))
     statusCodes = {"200": 0,
                    "301": 0,
                    "400": 0,
