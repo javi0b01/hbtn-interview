@@ -3,12 +3,15 @@
 if __name__ == '__main__':
     import sys
 
+
     def print_results(statusCodes, fileSize):
         """ Print statistics """
         print("File size: {:d}".format(fileSize))
         for statusCode, times in sorted(statusCodes.items()):
             if times:
-                print("{}: {:d}".format(statusCode, times))
+                print("{:s}: {:d}".format(statusCode, times))
+
+
     statusCodes = {"200": 0,
                    "301": 0,
                    "400": 0,
