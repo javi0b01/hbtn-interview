@@ -11,6 +11,7 @@
 * [x] 460 0x04. Sandpiles
 * [x] 440 0x05. Linked list palindrome
 * [x] 474 0x06. Log Parsing
+* [ ] 438 0x07. Linked list cycle
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
