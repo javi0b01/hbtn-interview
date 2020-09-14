@@ -7,11 +7,12 @@
 **/
 int check_cycle(listint_t *list)
 {
-	listint_t *listA = list;
-	listint_t *listB = list;
+	listint_t *listA, *listB;
 
 	if (!list)
 		return (0);
+	listA = list;
+	listB = list;
 	while (listA->next && listB->next->next)
 	{
 		listA = listA->next;
