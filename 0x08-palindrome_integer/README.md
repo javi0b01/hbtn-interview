@@ -7,7 +7,7 @@
 A ```README.md``` file.
 
 ## Tasks
-* [ ] 0. Palindrome unsigned integer
+* [x] 0. Palindrome unsigned integer
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  

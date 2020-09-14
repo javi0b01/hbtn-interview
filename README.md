@@ -12,7 +12,7 @@
 * [x] 440 0x05. Linked list palindrome
 * [x] 474 0x06. Log Parsing
 * [x] 438 0x07. Linked list cycle
-* [ ] 444 0x08. Palindrome integer
+* [x] 444 0x08. Palindrome integer
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
