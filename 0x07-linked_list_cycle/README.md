@@ -7,7 +7,7 @@
 A ```README.md``` file.
 
 ## Tasks
-* [ ] 0. Linked list cycle
+* [x] 0. Linked list cycle
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
