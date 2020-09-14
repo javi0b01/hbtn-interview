@@ -10,10 +10,12 @@ int check_cycle(listint_t *list)
 	listint_t *listA = list;
 	listint_t *listB = list;
 
-	while (listA && listA->next && listB && listB->next->next)
+	if (!list)
+		return (0);
+	while ((!listA) && (!listA->next))
 	{
-		listA = listA->next;
-		listB = listB->next->next;
+		listA = listA->next->next;
+		listB = listB->next;
 		if (listA == listB)
 			return (1);
 	}
