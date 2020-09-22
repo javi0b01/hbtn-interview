@@ -21,6 +21,9 @@ def validUTF8(data):
                 continue
             if bytesLong == 1 or bytesLong > 4:
                 return False
+        else:
+            if binary[0] == '0' and binary[1] == '1':
+                return False
         bytesLong -= 1
     return True
 
