@@ -29,5 +29,7 @@ def validUTF8(data):
             if not (byte & binaryLeftShift7 and not (byte & binaryLeftShift6)):
                 return False
         bytesLong -= 1
-    return True
+    if bytesLong == 0:
+        return True
+    return False
 
