@@ -8,10 +8,13 @@ Method that determines if a given data set represents a valid UTF-8 encoding.
 * Each integer represents 1 byte of data, therefore you only need to handle
 * the 8 least significant bits of each integer
 """
+
+
 def validUTF8(data):
+    """ UTF-8 Validation """
     bytesLong = 0
     for byte in data:
-        binary = "{0:08b}".format(byte)
+        binary = format(byte, '#010b')[-8:]
         if bytesLong == 0:
             for bit in binary:
                 if bit == '0':
