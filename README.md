@@ -13,7 +13,9 @@
 * [x] 474 0x06. Log Parsing
 * [x] 438 0x07. Linked list cycle
 * [x] 444 0x08. Palindrome integer
+* [ ] 490 0x09. UTF-8 Validation
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
 :octocat: [GitHub](https://github.com/javierandresgp/)
+
