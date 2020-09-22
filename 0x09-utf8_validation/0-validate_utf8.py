@@ -11,26 +11,22 @@ Method that determines if a given data set represents a valid UTF-8 encoding.
 
 
 def validUTF8(data):
-    """ UTF-8 Validation """
 
-    bytesLong = 0
-    binaryMoveLeft7 = 1 << 7
-    binaryMoveLeft6 = 1 << 6
-    for byte in data:
-        binaryMove = 1 << 7
-        if bytesLong == 0:
-            while byte & binaryMove:
-                bytesLong += 1
-                binaryMove = binaryMove >> 1
-            if bytesLong == 0:
+    countBytes = 0
+    for num in data:
+        binNum = format(num, '#010b')[-8:]
+        if countBytes == 0:
+            for bit in binNum:
+                if bit == '0':
+                    break
+                countBytes += 1
+            if countBytes == 0:
                 continue
-            if bytesLong == 1 or bytesLong > 4:
+            if countBytes == 1 or countBytes > 4:
                 return False
         else:
-            if not (byte & binaryMoveLeft7 and not (byte & binaryMoveLeft6)):
+            if not (binNum[0] == '1' and binNum[1] == '0'):
                 return False
-        bytesLong -= 1
-    if bytesLong == 0:
-        return True
-    return False
+        countBytes -= 1
+    return countBytes == 0
 
