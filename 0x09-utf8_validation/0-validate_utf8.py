@@ -10,8 +10,7 @@ Method that determines if a given data set represents a valid UTF-8 encoding.
 """
 def validUTF8(data):
     for byte in data:
-        binary = bin(byte)
-        binary = binary.replace("b", "")
+        binary = "{0:08b}".format(byte)
         if len(binary) > 8:
             return False
     return True
