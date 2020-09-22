@@ -15,6 +15,7 @@ def validUTF8(data):
     bytesLong = 0
     binaryMoveLeft7 = 1 << 7
     binaryMoveLeft6 = 1 << 6
+
     for byte in data:
         binaryMove = 1 << 7
         if bytesLong == 0:
