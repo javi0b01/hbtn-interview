@@ -13,7 +13,7 @@
 A ```README.md``` file.
 
 ## Tasks
-* [ ] 0. UTF-8 Validation
+* [x] 0. UTF-8 Validation
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
