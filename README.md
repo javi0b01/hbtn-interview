@@ -14,7 +14,8 @@
 * [x] 438 0x07. Linked list cycle
 * [x] 444 0x08. Palindrome integer
 * [x] 490 0x09. UTF-8 Validation
-* [ ] 451 0x0A. 2048 (single line)
+* [x] 451 0x0A. 2048 (single line)
+* [ ] 454 0x0B. Menger sponge
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
