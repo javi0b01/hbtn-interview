@@ -14,7 +14,7 @@
 * All your files should end with a new line
 
 ## Tasks
-* [ ] 0. 2D Menger sponge
+* [x] 0. 2D Menger sponge
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
