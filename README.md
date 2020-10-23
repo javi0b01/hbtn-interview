@@ -16,6 +16,7 @@
 * [x] 490 0x09. UTF-8 Validation
 * [x] 451 0x0A. 2048 (single line)
 * [x] 454 0x0B. Menger sponge
+* [ ] 463 0x0C. N Queens
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
