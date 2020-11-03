@@ -17,7 +17,7 @@
 * [x] 451 0x0A. 2048 (single line)
 * [x] 454 0x0B. Menger sponge
 * [ ] 463 0x0C. N Queens
-* [ ] 455 0x0D. Array to AVL
+* [x] 455 0x0D. Array to AVL
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  

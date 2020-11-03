@@ -11,7 +11,7 @@
 * A ```README.md``` file.
 
 ## Tasks
-* [ ] 0. AVL - From sorted array
+* [x] 0. AVL - From sorted array
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
