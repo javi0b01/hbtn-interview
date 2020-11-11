@@ -6,13 +6,13 @@
 
 ## Resources
 * [Skip list](https://en.wikipedia.org/wiki/Skip_list)
-* [Functions used in the example](https://github.com/holbertonschool/0x0E.Linear_search-in_skip_list)
+* [Functions used](https://github.com/holbertonschool/0x0E.Linear_search-in_skip_list)
 
 ## Requirements
 * A ```README.md``` file.
 
 ## Tasks
-* [ ] 0. Linear search in a skip list
+* [x] 0. Linear search in a skip list
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  

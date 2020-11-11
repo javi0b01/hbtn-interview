@@ -18,7 +18,7 @@
 * [x] 454 0x0B. Menger sponge
 * [ ] 463 0x0C. N Queens
 * [x] 455 0x0D. Array to AVL
-* [ ] 461 0x0E. Linear search in skip list
+* [x] 461 0x0E. Linear search in skip list
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
