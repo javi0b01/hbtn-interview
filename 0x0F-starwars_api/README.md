@@ -30,7 +30,7 @@ $ export NODE_PATH=/usr/lib/node_modules
 ```
 
 ## Tasks
-* [ ] 0. Star Wars Characters
+* [x] 0. Star Wars Characters
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
