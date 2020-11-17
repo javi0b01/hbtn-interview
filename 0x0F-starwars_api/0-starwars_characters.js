@@ -17,4 +17,4 @@ const showNames = (names, i = 0) => {
     console.log(JSON.parse(body).name);
     showNames(names, i + 1);
   });
-}
+};
