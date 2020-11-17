@@ -19,6 +19,7 @@
 * [ ] 463 0x0C. N Queens
 * [x] 455 0x0D. Array to AVL
 * [x] 461 0x0E. Linear search in skip list
+* [ ] 470 0x0F. Star Wars API
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
