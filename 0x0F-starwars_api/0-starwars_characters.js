@@ -2,6 +2,7 @@
 const request = require('request'),
 urlApi = 'https://swapi-api.hbtn.io/api/films/',
 movieId = process.argv[2];
+
 request(urlApi + movieId, (error, response, body) => {
   if (error) throw error;
   const characters = JSON.parse(body).characters;
