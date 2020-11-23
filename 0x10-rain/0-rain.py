@@ -31,4 +31,3 @@ def rain(walls):
             idxRight -= 1
 
     return rainwater
-
