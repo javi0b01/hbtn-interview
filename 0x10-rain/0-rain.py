@@ -10,8 +10,9 @@ def rain(walls):
         walls[-1]) are not walls, meaning they will not retain water.
         If the list is empty return 0.
     """
-    if not walls:
-        return (0)
+    if walls is None:
+        return 0
+
     idxLeft = 0
     idxRight = len(walls) - 1
     leftMax = 0
