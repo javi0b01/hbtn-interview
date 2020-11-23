@@ -10,6 +10,7 @@ def rain(walls):
         walls[-1]) are not walls, meaning they will not retain water.
         If the list is empty return 0.
     """
+
     if walls is None:
         return 0
 
@@ -18,6 +19,7 @@ def rain(walls):
     leftMax = 0
     rightMax = 0
     rainwater = 0
+
     while (idxLeft <= idxRight):
         leftMax = max(leftMax, walls[idxLeft])
         rightMax = max(rightMax, walls[idxRight])
@@ -27,5 +29,6 @@ def rain(walls):
         else:
             rainwater += rightMax - walls[idxRight]
             idxRight -= 1
+
     return rainwater
 
