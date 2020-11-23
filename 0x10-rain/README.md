@@ -8,7 +8,7 @@
 * A ```README.md``` file.
 
 ## Tasks
-* [ ] 0. Rain
+* [x] 0. Rain
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  

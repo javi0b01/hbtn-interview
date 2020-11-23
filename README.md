@@ -20,7 +20,7 @@
 * [x] 455 0x0D. Array to AVL
 * [x] 461 0x0E. Linear search in skip list
 * [x] 470 0x0F. Star Wars API
-* [ ] 508 0x10. Rain
+* [x] 508 0x10. Rain
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
