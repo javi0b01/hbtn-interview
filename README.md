@@ -21,6 +21,7 @@
 * [x] 461 0x0E. Linear search in skip list
 * [x] 470 0x0F. Star Wars API
 * [x] 508 0x10. Rain
+* [ ] 462 0x11. Heap Sort
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
