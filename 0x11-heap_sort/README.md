@@ -11,7 +11,7 @@
 * A ```README.md``` file.
 
 ## Tasks
-* [ ] 0. Heap sort
+* [x] 0. Heap sort
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
