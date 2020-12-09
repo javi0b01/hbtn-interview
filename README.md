@@ -22,6 +22,7 @@
 * [x] 470 0x0F. Star Wars API
 * [x] 508 0x10. Rain
 * [x] 462 0x11. Heap Sort
+* [x] 464 0x12. Advanced Binary Search
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  

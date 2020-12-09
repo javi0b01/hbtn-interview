@@ -8,7 +8,7 @@
 * A ```README.md``` file.
 
 ## Tasks
-* [ ] 0. Advanced Binary Search
+* [x] 0. Advanced Binary Search
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
