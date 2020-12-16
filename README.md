@@ -23,6 +23,7 @@
 * [x] 508 0x10. Rain
 * [x] 462 0x11. Heap Sort
 * [x] 464 0x12. Advanced Binary Search
+* [ ] 476 0x13. Count it!
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
