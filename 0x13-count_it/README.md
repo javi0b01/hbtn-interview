@@ -12,7 +12,7 @@
 * A ```README.md``` file.
 
 ## Tasks
-* [ ] 0. Count it!
+* [x] 0. Count it!
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
