@@ -3,37 +3,30 @@
 import requests
 
 
-def helper(subreddit, word_list, titles, after=None):
-    """ recursive function that queries the Reddit API, parses the title of all
-    hot articles, and prints a sorted count of given keywords """
-    urlApi = "https://www.reddit.com/"
-    headers = {'User-agent': 'product'}
-    endpoint = "r/{}/hot.json?after={}".format(subreddit, after)
-    resp = requests.get(endpoint, headers, allow_redirects=False)
-    if resp.status_code != 200:
+def count_words(subreddit, word_list, hot_list=[], after=None):
+    """ function that queries the Reddit API, parses the title of all hot
+    articles, and prints a sorted count of given keywords """
+    try:
+        endpoint = "https://www.reddit.com/r/{}/hot.json?after={}"
+        headers = {'User-Agent': 'custom'}
+        r = requests.get(endpoint.format(subreddit, after), headers, allow_redirects=False)
+        if after is None:
+            dict = {}
+            for word in word_list:
+                for hot_word in hot_list:
+                    if word == hot_word:
+                        if word not in dict:
+                            dict[word] = 1
+                        else:
+                            dict[word] += 1
+            for word in sorted(dict, key=dict.get, reverse=True):
+                if dict[word]:
+                    print('{}: {}'.format(word, dict[word]))
+            return hot_list
+        for thread in r.json().get('data').get('children'):
+            hot_list += thread.get('data').get('title').lower().split()
+        after = r.json().get('data').get('after')
+        count_words(subreddit, word_list, hot_list, after)
+        return hot_list
+    except:
         return None
-    if after is None:
-        return titles
-    data = resp.json().get('data').get('children')
-    for datum in data:
-        title = datum.get('data').get('title').split()
-        for word in set(word_list):
-            if word.lower() in [w.lower() for w in title]:
-                if titles.get(word):
-                    titles[word] += 1
-                else:
-                    titles[word] = 1
-    after = resp.json().get('data').get('after')
-    helper(subreddit, word_list, titles, after)
-    return titles
-
-
-def count_words(subreddit, word_list):
-    """ function that queries the Reddit API, parses the title of all
-    hot articles, and prints a sorted count of given keywords """
-    titles = helper(subreddit, word_list, {})
-    if titles:
-        for k, v in sorted(titles.items(), key=lambda value: value[1],
-                           reverse=True):
-            if v != 0:
-                print('{}: {}'.format(k, v))
