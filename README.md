@@ -24,6 +24,7 @@
 * [x] 462 0x11. Heap Sort
 * [x] 464 0x12. Advanced Binary Search
 * [x] 476 0x13. Count it!
+* [ ] 466 0x14. Heap Extract
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
