@@ -1,23 +1,19 @@
 #include "binary_trees.h"
-
 /**
  * get_tree_size - returns the size of the tree
  * @root: pointer to the head
- *
  * Return: size of the tree
  **/
 int get_tree_size(heap_t *root)
 {
-	if (!root)
+	if (root == NULL)
 		return (0);
 	return (1 + get_tree_size(root->left) + get_tree_size(root->right));
 }
-
 /**
  * swap - swaps nodes values
  * @a: node to swap value of
  * @b: node to swap value of
- *
  * Return: the first given node
  **/
 heap_t *swap(heap_t *a, heap_t *b)
@@ -25,15 +21,12 @@ heap_t *swap(heap_t *a, heap_t *b)
 	a->n = a->n * b->n;
 	b->n = a->n / b->n;
 	a->n = a->n / b->n;
-
 	return (a);
 }
-
 /**
  * get_last_node - returns the last node
  * @root: pointer to the root node
  * @size: size of the tree
- *
  * Return: the found node ptr
  **/
 heap_t *get_last_node(heap_t *root, int size)
@@ -43,7 +36,6 @@ heap_t *get_last_node(heap_t *root, int size)
 
 	for (; 1 << (b_idx + 1) <= size; b_idx++)
 		;
-
 	for (b_idx--; b_idx >= 0; b_idx--)
 	{
 		mask = 1 << b_idx;
@@ -77,12 +69,10 @@ void heapify(heap_t *root)
 			root = swap(max, root);
 	}
 }
-
 /**
- * heap_extract - returns the root node value
- * @root: pointer to the root node
- *
- * Return: value of the root node or 0.
+ * heap_extract - extracts the root node of a Max Binary Heap
+ * @root:  is a double pointer to the root node of the heap
+ * Return: the value stored in the root node, otherwise 0
  */
 int heap_extract(heap_t **root)
 {
