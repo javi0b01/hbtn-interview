@@ -1,6 +1,6 @@
 # Specializations
 ## holbertonschool-interview
-###### :copyright: **[Holberton School](https://www.holbertonschool.com/)**
+### :copyright: **[Holberton School](https://www.holbertonschool.com/)**
 
 ## Projects
 :open_file_folder:
@@ -25,8 +25,7 @@
 * [x] 464 0x12. Advanced Binary Search
 * [x] 476 0x13. Count it!
 * [ ] 466 0x14. Heap Extract
+* [ ] 468 0x15. Infinite Multiplication
 
 ## Software engineer
-Javier Andrés Garzón Patarroyo  
-:octocat: [GitHub](https://github.com/javierandresgp/)
-
+[Javier Andrés GP](https://www.javierandresgp.com)
