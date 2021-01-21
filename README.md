@@ -26,6 +26,7 @@
 * [x] 476 0x13. Count it!
 * [ ] 466 0x14. Heap Extract
 * [ ] 468 0x15. Infinite Multiplication
+* [ ] 503 0x16. Rotate 2D Matrix
 
 ## Software engineer
-[Javier Andrés GP](https://www.javierandresgp.com)
+[Javier Andrés Garzón Patarroyo](https://www.javierandresgp.com)
