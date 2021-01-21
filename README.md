@@ -24,9 +24,9 @@
 * [x] 462 0x11. Heap Sort
 * [x] 464 0x12. Advanced Binary Search
 * [x] 476 0x13. Count it!
-* [ ] 466 0x14. Heap Extract
-* [ ] 468 0x15. Infinite Multiplication
-* [ ] 503 0x16. Rotate 2D Matrix
+* [x] 466 0x14. Heap Extract
+* [x] 468 0x15. Infinite Multiplication
+* [x] 503 0x16. Rotate 2D Matrix
 
 ## Software engineer
 [Javier Andrés Garzón Patarroyo](https://www.javierandresgp.com)

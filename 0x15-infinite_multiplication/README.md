@@ -8,7 +8,7 @@
 * A ```README.md``` file.
 
 ## Tasks
-* [ ] 0. Infinite Multiplication
+* [x] 0. Infinite Multiplication
 
 ## Software engineer
-[Javier Andrés GP](https://www.javierandresgp.com)
+[Javier Andrés Garzón Patarroyo](https://www.javierandresgp.com)

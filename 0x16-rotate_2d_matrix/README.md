@@ -8,7 +8,7 @@
 * A ```README.md``` file.
 
 ## Tasks
-* [ ] 0. Rotate 2D Matrix
+* [x] 0. Rotate 2D Matrix
 
 ## Software engineer
 [Javier Andrés Garzón Patarroyo](https://www.javierandresgp.com)

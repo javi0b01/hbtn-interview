@@ -12,8 +12,7 @@
 * A ```README.md``` file.
 
 ## Tasks
-* [ ] 0. Heap - Extract
+* [x] 0. Heap - Extract
 
 ## Software engineer
-Javier Andrés Garzón Patarroyo  
-:octocat: [GitHub](https://github.com/javierandresgp/)
+[Javier Andrés Garzón Patarroyo](https://www.javierandresgp.com)
