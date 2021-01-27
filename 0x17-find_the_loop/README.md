@@ -8,7 +8,7 @@
 * A ```README.md``` file.
 
 ## Tasks
-* [ ] 0. Find the loop
+* [x] 0. Find the loop
 
 ## Software engineer
 [Javier Andrés Garzón Patarroyo](https://www.javierandresgp.com)
