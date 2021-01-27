@@ -27,6 +27,7 @@
 * [x] 466 0x14. Heap Extract
 * [x] 468 0x15. Infinite Multiplication
 * [x] 503 0x16. Rotate 2D Matrix
+* [ ] 472 0x17. Find the Loop
 
 ## Software engineer
 [Javier Andrés Garzón Patarroyo](https://www.javierandresgp.com)
