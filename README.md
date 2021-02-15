@@ -28,7 +28,7 @@
 * [x] 468 0x15. Infinite Multiplication
 * [x] 503 0x16. Rotate 2D Matrix
 * [x] 472 0x17. Find the Loop
-* [ ] 482 0x18. Merge Sort
+* [x] 482 0x18. Merge Sort
 
 ## Software engineer
 [Javier Andrés Garzón Patarroyo](https://www.javierandresgp.com)
