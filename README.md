@@ -29,6 +29,7 @@
 * [x] 503 0x16. Rotate 2D Matrix
 * [x] 472 0x17. Find the Loop
 * [x] 482 0x18. Merge Sort
+* [ ] 492 0x19. Making Change
 
 ## Software engineer
 [Javier Andrés Garzón Patarroyo](https://www.javierandresgp.com)
