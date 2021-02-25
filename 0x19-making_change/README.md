@@ -8,7 +8,7 @@
 * A ```README.md``` file.
 
 ## Tasks
-* [ ] 0. Change comes from within
+* [x] 0. Change comes from within
 
 ## Software engineer
 [Javier Andrés Garzón Patarroyo](https://www.javierandresgp.com)
