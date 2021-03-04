@@ -30,6 +30,7 @@
 * [x] 472 0x17. Find the Loop
 * [x] 482 0x18. Merge Sort
 * [x] 492 0x19. Making Change
+* [ ] 478 0x1A. Double Circular Linked List
 
 ## Software engineer
 [Javier Andrés Garzón Patarroyo](https://www.javierandresgp.com)
