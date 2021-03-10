@@ -31,6 +31,7 @@
 * [x] 482 0x18. Merge Sort
 * [x] 492 0x19. Making Change
 * [x] 478 0x1A. Double Circular Linked List
+* [ ] 480 0x1B. Radix Sort
 
 ## Software engineer
 [Javier Andrés Garzón Patarroyo](https://www.javierandresgp.com)
