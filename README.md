@@ -32,7 +32,7 @@
 * [x] 492 0x19. Making Change
 * [x] 478 0x1A. Double Circular Linked List
 * [x] 480 0x1B. Radix Sort
-* [ ] 496 0x1C. Island Perimeter
+* [x] 496 0x1C. Island Perimeter
 
 ## Software engineer
 [Javier Andrés Garzón Patarroyo](https://www.javierandresgp.com)
