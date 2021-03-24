@@ -33,6 +33,7 @@
 * [x] 478 0x1A. Double Circular Linked List
 * [x] 480 0x1B. Radix Sort
 * [x] 496 0x1C. Island Perimeter
+* [ ] 484 0x1D. AVL Trees
 
 ## Software engineer
 [Javier Andrés Garzón Patarroyo](https://www.javierandresgp.com)
