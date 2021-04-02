@@ -34,6 +34,7 @@
 * [x] 480 0x1B. Radix Sort
 * [x] 496 0x1C. Island Perimeter
 * [x] 484 0x1D. AVL Trees
+* [ ] 502 0x1E. Wild Compare
 
 ## Software engineer
 [Javier Andrés Garzón Patarroyo](https://www.javierandresgp.com)
