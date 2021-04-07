@@ -4,7 +4,8 @@
 
 def pascal_triangle(n):
     """ Returns a list of lists of integers
-    representing the Pascal's triangle of n """
+    representing the Pascal's triangle of n
+    """
     aList = [[] for i in range(0, n)]
     for row in range(0, n):
         for column in range(row+1):
