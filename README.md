@@ -35,6 +35,7 @@
 * [x] 496 0x1C. Island Perimeter
 * [x] 484 0x1D. AVL Trees
 * [x] 502 0x1E. Wild Compare
+* [ ] 500 0x1F. Pascal's Triangle
 
 ## Software engineer
 [Javier Andrés Garzón Patarroyo](https://www.javierandresgp.com)
