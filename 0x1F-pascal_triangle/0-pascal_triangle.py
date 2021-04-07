@@ -5,12 +5,13 @@ def pascal_triangle(n):
         representing the Pascal's triangle of n """
     aList = [[] for i in range(0, n)]
     for row in range(0, n):
-        for col in range(row+1):
-            if ( col < row):
-                if (col <= 0):
+        for column in range(row+1):
+            if ( column < row):
+                if (column <= 0):
                     aList[row].append(1)
                 else:
-                    aList[row].append(aList[row - 1][col] + aList[row - 1][col - 1])
-            elif (row == col):
+                    aList[row].append(aList[row - 1][column] +
+                    aList[row - 1][column - 1])
+            elif (row == column):
                 aList[row].append(1)
     return (aList)
