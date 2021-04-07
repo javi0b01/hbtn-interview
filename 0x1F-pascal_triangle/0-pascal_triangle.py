@@ -6,15 +6,26 @@ def pascal_triangle(n):
     """ Returns a list of lists of integers
     representing the Pascal's triangle of n
     """
-    aList = [[] for i in range(0, n)]
-    for row in range(0, n):
+    aList = []
+    if n <= 0:
+        return aList
+
+    aList = [[1]]
+    if n == 1:
+        return aList
+
+    for row in range(1, n):
+        left = -1
+        right = 0
+        listInt = []
         for column in range(row+1):
-            if ( column < row):
-                if (column <= 0):
-                    aList[row].append(1)
-                else:
-                    aList[row].append(aList[row - 1][column] +
-                    aList[row - 1][column - 1])
-            elif (row == column):
-                aList[row].append(1)
-    return (aList)
+            integer = 0
+            if left > -1:
+                integer += aList[row - 1][left]
+            if right < row:
+                integer += aList[row - 1][right]
+            left += 1
+            right += 1
+            listInt.append(integer)
+        aList.append(listInt)
+    return aList
