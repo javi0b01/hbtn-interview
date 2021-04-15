@@ -36,7 +36,7 @@
 * [x] 484 0x1D. AVL Trees
 * [x] 502 0x1E. Wild Compare
 * [x] 500 0x1F. Pascal's Triangle
-* [ ] 504 0x20. RegEx
+* [x] 504 0x20. RegEx
 
 ## Software engineer
 [Javier Andrés Garzón Patarroyo](https://www.javierandresgp.com)
