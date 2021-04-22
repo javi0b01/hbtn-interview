@@ -37,7 +37,7 @@
 * [x] 502 0x1E. Wild Compare
 * [x] 500 0x1F. Pascal's Triangle
 * [x] 504 0x20. RegEx
-* [ ] 506 0x21. Substring with concatenated words
+* [x] 506 0x21. Substring with concatenated words
 
 ## Software engineer
 [Javier Andrés Garzón Patarroyo](https://www.javierandresgp.com)

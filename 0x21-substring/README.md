@@ -8,7 +8,7 @@
 * A ```README.md``` file.
 
 ## Tasks
-* [ ] 0. Substring with concatenated words
+* [x] 0. Substring with concatenated words
 
 ## Software engineer
 [Javier Andrés Garzón Patarroyo](https://www.javierandresgp.com)
