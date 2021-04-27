@@ -30,7 +30,9 @@ def isWinner(x, nums):
     """
 
     score = {"Maria": 0, "Ben": 0}
+
     primes = [0, 0, 2]
+
     add_prime(max(nums), primes)
 
     for round in range(x):
@@ -51,3 +53,4 @@ def isWinner(x, nums):
         return "Ben"
 
     return None
+
