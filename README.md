@@ -38,7 +38,7 @@
 * [x] 500 0x1F. Pascal's Triangle
 * [x] 504 0x20. RegEx
 * [x] 506 0x21. Substring with concatenated words
-* [ ] 501 0x22. Prime Game
+* [x] 501 0x22. Prime Game
 
 ## Software engineer
 [Javier Andrés Garzón Patarroyo](https://www.javierandresgp.com)
