@@ -1,7 +1,5 @@
 # Specializations
 ## holbertonschool-interview
-### :copyright: **[Holberton School](https://www.holbertonschool.com/)**
-
 ## Projects
 :open_file_folder:
 * [x] 498 0x00. Lockboxes
@@ -40,5 +38,6 @@
 * [x] 506 0x21. Substring with concatenated words
 * [x] 501 0x22. Prime Game
 
-## Software engineer
-[Javier Andrés Garzón Patarroyo](https://www.javierandresgp.com)
+## Software Developer
+Built by [javi](https://github.com/javi0x00) :copyright: 2020 - 2021  
+Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0x00/).
