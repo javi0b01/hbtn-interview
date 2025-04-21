@@ -14,5 +14,5 @@ A ```README.md``` file.
 * [x] 0. Sandpiles sum
 
 ## Software Developer
-Built by [javi](https://github.com/javi0x00) :copyright: 2020 - 2021  
-Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0x00/).
+Built by [Javi](https://github.com/javi0b01) :copyright: 2020 - 2021  
+Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).
